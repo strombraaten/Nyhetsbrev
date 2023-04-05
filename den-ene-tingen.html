@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+       <title>My Website</title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+     </head>
+     <body>
+<h1>04 - Den ene tingen</h1>
+<p>Hei og hå! 👋</p>
+<p>Forrige uke blei nyhetsbrevet så voldsomt langt, i tillegg til at det tok lang tid å skrive. Derfor prøver jeg meg på noe annet denne uka, og fokuserer heller på én ting. Kanskje det er lettere for deg som leser, sammenligna med å ha mange punkter og flere tanker i én schmæle?</p>
+<p>Eeeller kanskje det blir mindre relevant, siden det da er avhengig av at du er interessert i den <strong>ene</strong> tingen jeg skriver om. I stedet for å finne en interessant tanke her og der. Det blir som at jeg legge alle eggene mine i en kurv, i stedet for å spre det utover.</p>
+<p>Jaja, vi får se hva det blir til! Uansett, vil jeg veldig gjerne høre hvordan det oppleves for deg. Bare svar på denne eposten ✉️</p>
+<hr />
+<h2>Den ene tingen</h2>
+<p>Hvis jeg spør en amerikaner om hva slags temperatur det er meldt imorra, og hun svarer med å si &ldquo;77 °fahrenheit&rdquo;, sier det meg jo null og niks. Rett og slett fordi jeg ikke er vant til å bruke den måleenheten.</p>
+<p>Det samme kjenner jeg på når en utvikler spør meg om hvor mange &ldquo;<em>rem</em>&rdquo; det er mellom en knapp og et avsnitt f. eks. Jeg har nemlig vært <a href="https://www.figma.com/?utm_source=simenskriver&amp;utm_medium=email&amp;utm_campaign=den-ene-tingen" target="_blank">dypt i Figmaland</a> de siste to månedene, og lagd et grensesnitt for en kunde på jobb. Da må man plutselig ta stilling til sånt. Hvor mye mellomrom bør det egentlig være mellom en knapp og et avsnitt? Det er ett av mange filosofiske spørsmål man må ta stilling til som UX designer.</p>
+<p>Jeg kommer ikke til å reflektere rundt det spørsmålet i dag, men jeg vil definitivt <a href="https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179?utm_source=simenskriver&amp;utm_medium=email&amp;utm_campaign=den-ene-tingen" target="_blank">anbefale den artikkelen her om å basere størrelser på et 8-punkts system</a>. Det har vært blant de større innflytelsene på designarbeidet mitt det siste året, vil jeg si.</p>
+<p>Det jeg heller vil snakke om er <em>hvordan</em> vi forholder vårs til mellomrom og størrelser i det hele tatt.</p>
+<h3>Store åpenbaringer ved grunnleggende kunnskap</h3>
+<p>I det siste har jeg nemlig jobba med posisjonering og &ldquo;spacing&rdquo; på en måte som jeg ikke har vært vant til.</p>
+<p>På én måte kjenner jeg at det her er så grunnleggende at jeg nesten skammer meg over å anse det som &ldquo;ny kunnskap&rdquo;, bare fordi det er helt grunnleggende for mange. Samtidig er det noe utrolig spennende med å få en åpenbaring når du lærer deg noe nytt. Og &ldquo;det nye&rdquo; for meg nå i det siste vært CSS og HTML. Da syns jeg det er viktig å anerkjenne de nøkkelfunnene som jeg snubler over underveis.</p>
+<h3>Fleksible og ikke-fleksible måleenheter</h3>
+<p>For om jeg lager et grensesnitt så forholder jeg meg til pixler. Og det har jeg alltid gjort. Det har vært standard-enheten som brukes i design-programmer så lenge jeg kan huske. Problemet med det er at pixler er en &ldquo;absolutt lengde&rdquo;. Den er konstant.</p>
+<p>Det er en fordel hvis du lager en plakat f. eks, hvor du veit at A2 er det eneste formatet som skal brukes. Med digitale greier derimot må du tilrettelegge for at én person har en liten iPhone SE, mens en annen skal se på samme greia på en 32-tommers skjerm på jobb. Og det du lager skal være like fint i alle størrelser.</p>
+<p><img alt="Illustrasjon over ulike skjermstørrelser for responsivt design.png" class="newsletter-image" src="https://buttondown-attachments.s3.us-west-2.amazonaws.com/images/728df900-5321-4a42-b19f-86111a069f5a.png" /> </p>
+<p>Når du lager et <em>responsivt design</em> må det altså kunne skaleres vertikalt og horisontalt. Da egner det seg dårlig med en måleenhet som ikke tar hensyn til omstendighetene den befinner seg i.</p>
+<p>Derfor er det mye lettere å jobbe med en <em>relativ</em> måleenhet som tilpasser seg til omstendighetene, og ikke en <em>absolutt</em> måleenhet.  <code>REM</code> og <code>EM</code> er eksempler på to sånne relative måleenheter.</p>
+<p>I praksis vil man da snakke om 1rem, 1.5rem, 3rem også videre. Men hvordan veit jeg hvor mye det er i pixler?</p>
+<p>Jo, hver nettleser har nemlig en standard skriftstørrelse som den faller tilbake til, dersom du ikke har spesifisert hvordan du vil at teksten skal se ut. Den størrelsen er som regel 16 pixler. Her burde jeg forklart mer spesifikt hvordan <a href="https://www.freecodecamp.org/news/what-is-rem-in-css/?utm_source=simenskriver&amp;utm_medium=email&amp;utm_campaign=den-ene-tingen" target="_blank">REM er definert relativt til skriftstørrelsen av rotelementet</a> (REM = Root element), men det der forstår jeg egentlig ikke. Og det er greit nok for min del.</p>
+<p>Så lenge jeg veit at 16 pixler er det samme som 1 REM, og at det gjelder alle størrelser, med mindre man spesifikt endrer det til noe annet. Det kan jeg jobbe med. Da er 2 REM det samme som 32 pixler, 3 REM er 48 pixler også videre.</p>
+<h3>Motivasjon</h3>
+<p>Okei, men hvorfor er det her spennende?</p>
+<p>Jo, for det betyr at jeg som designer plutselig snakker samme språk som utvikleren jeg jobber med. Når vi snakker samme språk blir det også mindre tvil om hvor ting skal stå i forhold til hverandre. Med andre ord, det blir lettere å oversette designet jeg har lagd til kode, og jeg må bruke mindre tid på å presisere at noe er feilposisjonert.</p>
+<p>Jeg kan gi deg et eksempel for å illustrere det poenget tydeligere.</p>
+<p>Sammen med utvikleren jeg har jobba med så jeg på posisjonering av ulike elementer, i den nettsida vi har lagd, og hvor mye mellomrom det skulle være fra det ene til det andre. Og forståelig nok var han litt frustrert over at det ikke var noen <em>regler</em> rundt det hele.</p>
+<p>Det er jo mye lettere å definere at det <strong>alltid</strong> skal være 1 REM med mellomrom fra ingressen både opp til overskriften, og ned til brødteksten. Sånn er det bare. Såklart kan det være unntak, men det vil jo være kjappere å tilpasse de få unntakene sammenligna med å gå gjennom hvert eneste tilfelle hvor det er en ingress, og definere at &ldquo;<em>Her skal det være 1 rem, der skal det være 1.5, og der skal det være 1 rem igjen.</em>&ldquo;</p>
+<p>Sannheten var at jeg ikke hadde vært konsekvent med avstandene gjennom hele løsningen. For jeg hadde fokusert på én side av gangen, som et enkeltstående stillbilde, ikke løsningen som en helhet. Derfor lagde jeg over oversikten nedenfor.</p>
+<p><img alt="Illustrasjon over bruk av rem som måleenhet i typografi.png" class="newsletter-image" src="https://buttondown-attachments.s3.us-west-2.amazonaws.com/images/8c56f5a2-7c0f-442a-af40-fd1c12a0fe18.png" /></p>
+<p>Ikke bare er det til stor hjelp for utvikleren, men også til meg. For da trenger jeg aldri å vurdere hver enkelt situasjon. Da lener jeg meg bare på regelen.</p>
+<h3>Bonus-argument</h3>
+<p>Mens jeg leste meg opp på <a href="https://uxdesign.cc/why-designers-should-move-from-px-to-rem-and-how-to-do-that-in-figma-c0ea23e07a15?utm_source=simenskriver&amp;utm_medium=email&amp;utm_campaign=den-ene-tingen" target="_blank">hvorfor designere burde gå vekk fra pixler og bruke rem i stedet</a>, var ett av argumentene at pixler ikke ville skalere opp dersom du ser dårlig, og har zooma inn alt på telefonen til 200% f. eks. Skrifta ville altså forbli like liten selv om du aktivt prøver å forstørre det for å kompensere for utfordringer med synet. Og det er et åpenbart problem, og en soleklar grunn til å bruke relative måleenheter i stedet.</p>
+<p>Samtidig så var det en utvikler-kompis av meg som nevnte at det pleide å være sånn før, men at det ikke er tilfellet lenger. Om du kan avkrefte eller bekrefte det her så vil jeg gjerne vite om det 🙋‍♂️</p>
+<hr />
+<p>Det var alt for denna gangen. God påske! 👋</p>
+     </body>
+   </html>
