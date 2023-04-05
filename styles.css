@@ -73,7 +73,7 @@ table,
 tr,
 td,
 * {
-  font-family: 'Roboto', Verdana, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
 }
   body {
     background-color: #F1F0EA;
@@ -110,7 +110,7 @@ h4, h3, h2, h1 {
 hr {
   border: 0;
   border-bottom: 1px #b9b9b9 solid !important;
-  max-width: 400px !important;
+  max-width: 560px !important;
   margin: 3rem auto 2rem auto !important;
 }
 
