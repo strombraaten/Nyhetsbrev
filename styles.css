@@ -95,14 +95,12 @@ p,
 div,
 ul,
 li {
-  max-width: 560px;
-  line-height: 1.7em;
-  font-size: 1.125rem;
+  max-width: 560px !important;
+  line-height: 1.7em !important;
+  font-size: 1.125rem !important;
 }
 
 h4, h3, h2, h1 {
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,34 +109,37 @@ h4, h3, h2, h1 {
 
 hr {
   border: 0;
-  border-bottom: 1px #000 dotted;
-  max-width: 500px;
-  margin: 2rem auto 2rem auto;
+  border-bottom: 1px #b9b9b9 solid !important;
+  max-width: 400px !important;
+  margin: 3rem auto 2rem auto !important;
 }
 
 h4 {
-  font-size: 0.8rem;
+  font-size: 1.25rem !important;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 h2 {
-  font-size: 2.625rem;
-  letter-spacing: 0.05rem;
+  font-size: 2.5rem !important;
+  letter-spacing: 0.05rem !important;
+  margin-top: 4rem !important!important;
 }
 
 h1 {
-  font-size: 3rem;
-  margin-bottom: 4rem;
-  text-align: center;
+  font-size: 3rem!important;
+  margin-bottom: 3rem!important;
+  text-align: center!important;
 }
 
 img {
   max-width: 100%;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Handle tweet emoji in Gmail. */
