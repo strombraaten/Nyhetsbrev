@@ -105,8 +105,6 @@ h4, h3, h2, h1 {
   margin-right: auto;
 }
 
-
-
 hr {
   border: 0;
   border-bottom: 1px #b9b9b9 solid !important;
@@ -133,6 +131,10 @@ h1 {
   font-size: 3rem!important;
   margin-bottom: 3rem!important;
   text-align: center!important;
+label {
+  line-height: 3rem !important;
+  padding-bottom: 10rem !important;
+  font-size: 1rem !important;
 }
 
 img {
@@ -382,4 +384,30 @@ code {
   border-radius: 0 0.25rem 0.25rem 0;
   font-size: 14px;
   padding: 3px 6px;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding-top: 0.5rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.item-placeholder {
+  background-color: #FFFFFF;
+  text-align: left;
+  font-style: italic;
+  color: #4A4A4A;
+}
+
+.item-button {
+  background-color: #0B62F0;
+  color: #FFFFFF;
 }
